@@ -1,6 +1,6 @@
 
 var wall, thickness;
-var bullet,speed, weight;
+var bullet,speed, weight,platform;
 
 function setup() {
   createCanvas(1600, 400);
@@ -13,7 +13,7 @@ function setup() {
 
 
 
-
+	platform=createSprite(50, 200, 50,5); 
   
     bullet=createSprite(50, 200, 50,5);  
     bullet.velocityX = speed;
