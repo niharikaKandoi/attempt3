@@ -32,7 +32,7 @@ function setup() {
 function draw() {
   background(0);  
   //bullet.sprite.collide(wall.sprite,calculateDeformation)
-  if(hasCollided(bullet, wall))
+  /*if(hasCollided(bullet, wall))
   {
   	bullet.velocityX=0;
   	var damage=0.5 * weight * speed* speed/(thickness *thickness *thickness);
@@ -49,7 +49,8 @@ function draw() {
 	if(damage<10)
 	{
 		wall.shapeColor=color(0,255,0);
-	}
+	}*/
+	
 	
   }
 
